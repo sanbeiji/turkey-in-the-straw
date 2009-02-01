@@ -32,22 +32,5 @@ A bad idea, probably
 	b4 a g \bar ":|"
 
 }
-%{c a c e d c \break
-b g g d g g
-b g b d c b
-c b c a d c 
-b g g g4 \bar ":|:"
-
-\break
-
-\partial 8 g'16 a
-b8 g g d g g
-b g b b a g
-a fis fis d fis fis
-a fis a a g fis \break
-e g g d g g
-c, g' g b, g' g
-c, b c a d c
-b g g g4 \bar ":|"%}
 
 \version "2.10.33"  % necessary for upgrading to future LilyPond versions.
