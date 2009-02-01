@@ -18,6 +18,7 @@ A bad idea, probably
 			\relative c'' {
 
 				\set Staff.instrumentName = "Violin "
+				\set Staff.midiInstrument = "fiddle"
 				\key g \major
 				\time 4/4
 
@@ -49,6 +50,7 @@ A bad idea, probably
 			\relative c' {
 
 				\set Staff.instrumentName = "Double Bass "
+				\set Staff.midiInstrument = "contrabass"
 				\key g \major
 				\time 4/4
 				\clef bass
@@ -75,7 +77,12 @@ A bad idea, probably
 			}
 		>>
 	>>
-	\midi { }
+	\midi {
+		\context {
+			\Score
+			tempoWholesPerMinute = #(ly:make-moment 260 4)
+		}
+	}
 	\layout { }
 }
 
