@@ -10,6 +10,12 @@ A bad idea, probably
 	copyright = "License: http://creativecommons.org/licenses/by-sa/3.0/us/"
 }
 
+#(set-default-paper-size "letter")
+\paper {
+  #(set-paper-size "letter")
+}
+
+
 \score {
 	<<
 	\new Staff = "violin" <<
@@ -23,22 +29,22 @@ A bad idea, probably
 				\time 4/4
 
 
-				\partial 4 b8( a)
-				g fis g a g4 b,8( c)
+				\partial 4 b8-1(\upbow a-0)
+				g fis g a-4 g4 b,8-2( c-3)
 				d e d b d4 g8( a)
 				b4 b b8 a g a
 				b4 a a b8( a)
-				g fis g a g4 b,8( c)
+				g fis g a g4 b,8-2( c-3)
 				d e d b d4 g8( a)
-				b d4 e8 d( b) g a
+				b d4-> e8-4 d( b) g a
 				b4 a g r
-				b8 d4 b8 d4 d
-				b8 d4 b8 d4 r
-				c8 e4 c8 e4 e
-				c8 e4 c8 e4 fis
+				b8\downbow d4-> b8 d4 d
+				b8 d4-> b8 d4 r
+				c8\downbow e4-> c8 e4 e
+				c8 e4-> c8 e4 fis
 				g g d d
 				b b a g8( a)
-				b d4 e8 d( b) g a
+				b d4-> e8-4 d( b) g a
 				b4 a g \bar "||"
 				
 				\partial 4 b8( a)
@@ -85,7 +91,7 @@ A bad idea, probably
 		\new Voice = "bass" {
 			\relative c' {
 
-				\set Staff.instrumentName = "Double Bass "
+				\set Staff.instrumentName = "Bass "
 				\set Staff.midiInstrument = "contrabass"
 				\key g \major
 				\time 4/4
