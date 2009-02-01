@@ -39,7 +39,43 @@ A bad idea, probably
 				g g d d
 				b b a g8( a)
 				b d4 e8 d( b) g a
-				b4 a g \bar ":|"
+				b4 a g \bar "||"
+				
+				\partial 4 b8( a)
+				g fis g a g4 b,8( c)
+				d e d b d4 g8( a)
+				b4 b b8 a g a
+				b4 a a b8( a)
+				g fis g a g4 b,8( c)
+				d e d b d4 g8( a)
+				b d4 e8 d( b) g a
+				b4 a g r
+				b8 d4 b8 d4 d
+				b8 d4 b8 d4 r
+				c8 e4 c8 e4 e
+				c8 e4 c8 e4 fis
+				g g d d
+				b b a g8( a)
+				b d4 e8 d( b) g a
+				b4 a g \bar "||"
+
+				\partial 4 b8( a)
+				g fis g a g4 b,8( c)
+				d e d b d4 g8( a)
+				b4 b b8 a g a
+				b4 a a b8( a)
+				g fis g a g4 b,8( c)
+				d e d b d4 g8( a)
+				b d4 e8 d( b) g a
+				b4 a g r
+				b8 d4 b8 d4 d
+				b8 d4 b8 d4 r
+				c8 e4 c8 e4 e
+				c8 e4 c8 e4 fis
+				g g d d
+				b b a g8( a)
+				b d4 e8 d( b) g a
+				b4 a g \bar "||"
 
 			}
 
@@ -71,7 +107,49 @@ A bad idea, probably
 				g g d d
 				b b a g8( a)
 				b d4 e8 d( b) g a
-				b4 a g \bar ":|"
+				b4 a g \bar "||" r
+				
+				g2^\markup { "Pizz." } d
+				g d
+				g d
+				d' a
+				g d
+				g d
+				c g
+				d' g
+				g d
+				g d
+				c g'
+				c g
+				b'4 b a a
+				g g d d
+				g e d b
+				g d g,
+				
+				
+				\partial 4
+				\bar ""
+				\clef treble
+				b''8( a)
+				g fis g a g4 b,8( c)
+				d e d b d4 g8( a)
+				b4 b b8 a g a
+				b4 a a b8( a)
+				g fis g a g4 b,8( c)
+				d e d b d4 g8( a)
+				b d4 e8 d( b) g a
+				b4 a g r
+				b8 d4 b8 d4 d
+				b8 d4 b8 d4 r
+				c8 e4 c8 e4 e
+				c8 e4 c8 e4 fis
+				g g d d
+				b b a g8( a)
+				b d4 e8 d( b) g a
+				b4
+				\bar ""
+				\clef bass
+				d,, g, \bar "|."
 
 				}
 			}
