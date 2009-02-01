@@ -115,7 +115,7 @@ A bad idea, probably
 				b d4 e8 d( b) g a
 				b4 a g \bar "||" r
 				
-				g2^\markup { "Pizz." } d
+				g2^\markup { "pizz." } d
 				g d
 				g d
 				d' a
@@ -136,7 +136,7 @@ A bad idea, probably
 				\partial 4
 				\bar ""
 				\clef treble
-				b''8( a)
+				b''8^\markup { "arco" }( a)
 				g fis g a g4 b,8( c)
 				d e d b d4 g8( a)
 				b4 b b8 a g a
@@ -155,7 +155,7 @@ A bad idea, probably
 				b4
 				\bar ""
 				\clef bass
-				d,, g, \bar "|."
+				d,,^\markup { "pizz." } g, \bar "|."
 
 				}
 			}
